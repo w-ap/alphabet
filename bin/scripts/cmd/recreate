@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+. ${DIR}/config
+
+read -r -p "Are you sure? [Yes/No] " response
+if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
+then
+  rm -rf .git
+  git init
+  git remote add origin git@bitbucket.org:forexformula/${1}.git
+fi

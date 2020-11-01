@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ALPHABET_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+. ./script.sh --source-only
+
+echp -e "💡 Info:"
+echo -e "\tBranch: $(git rev-parse --abbrev-ref HEAD)"
+echo -e "\tLatest tag: $(git describe --abbrev=0 --tags)"
+echo -e "\tLast commit: $(git show -s --format='%h %s')"

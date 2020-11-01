@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+set -o errexit -o pipefail -o noclobber -o nounset
+tabs 4
+
+export ALPHABET_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+export ALPHABET_BIN=${ALPHABET_HOME}/bin
+
+set -o allexport
+for f in ${ALPHABET_HOME}/bin/config/*.config;
+  do source ${f}; done
+set +o allexport
+
+. ${ALPHABET_HOME}/bin/lib/configure/configure.sh --source-only
+
+export ALPHABET_CONFIG="${ALPHABET_BIN}/config"
+export ALPHABET_CONFIG="${ALPHABET_BIN}/config"
+
+if [[ "${1}" == "--configure" ]]; then
+  configure ${1} ${ALPHABET_HOME}
+fi
+
+
