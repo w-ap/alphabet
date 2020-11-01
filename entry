@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-set -o errexit -o pipefail -o noclobber -o nounset
 tabs 4
 
 export ALPHABET_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -29,7 +28,6 @@ ALPHABET_HELP_EXPORT="export PATH=\"$ALPHABET_HELP\":\$PATH"
 ALPHABET_PLUMBING_EXPORT="export PATH=\"$ALPHABET_PLUMBING\":\$PATH"
 
 echo -e  "📚 Alphabet 1.0.0"
-# 💡
 
 grep -qxF "${ALPHABET_CMD_EXPORT}" ${ALPHABET_BASH_PROFILE} || echo ${ALPHABET_CMD_EXPORT} >> ${ALPHABET_BASH_PROFILE}
 grep -qxF "${ALPHABET_HOTKEY_EXPORT}" ${ALPHABET_BASH_PROFILE} || echo ${ALPHABET_HOTKEY_EXPORT} >> ${ALPHABET_BASH_PROFILE}
@@ -40,7 +38,7 @@ grep -qxF "${ALPHABET_PLUMBING_EXPORT}" ${ALPHABET_BASH_PROFILE} || echo ${ALPHA
 
 chmod +x bin/*
 source $HOME/.bash_profile
-echo  -e "\t✓ Successfully configured Alphabet"
+echo  -e "\tSuccessfully configured Alphabet ✓"
 
 
 
