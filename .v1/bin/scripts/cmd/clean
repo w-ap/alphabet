@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+[[ -d node_modules ]] && rm -rf node_modules
+[[ -f package.json ]] && yarn run clean --if-present

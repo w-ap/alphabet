@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+git request-pull $1 https://git.ko.xz/project master

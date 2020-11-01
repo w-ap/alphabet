@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export ALPHABET_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+echo "Scaffolding ${1}"
+
+cp -R ${ALPHABET_HOME}/../../scaffold/${1}/. ./

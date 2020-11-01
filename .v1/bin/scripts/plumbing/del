@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rm -rf ${1}
+#cp -R ${1}/../../../files/${1}/. ${ALPHABET_HOME}/../../../.tmp/

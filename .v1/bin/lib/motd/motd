@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+motd() {
+  cat ${ALPHABET_HOME}/src/assets/ascii.txt
+}

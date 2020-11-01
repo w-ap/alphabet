@@ -1,0 +1,4 @@
+#!/bin/bash
+
+[[ -f package.json ]] && yarn run lint --if-present
+
