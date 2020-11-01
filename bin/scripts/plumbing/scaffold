@@ -4,4 +4,4 @@ export ALPHABET_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 &
 
 echo "Scaffolding ${1}"
 
-cp -R ${ALPHABET_HOME}/../../../scaffold/${1}/. ${ALPHABET_HOME}/../../../.tmp/
+cp -R ${ALPHABET_HOME}/../../../scaffold/${1}/. ./
