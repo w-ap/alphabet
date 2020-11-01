@@ -2,6 +2,8 @@
 
 Alphabet is an intelligent developer toolkit for 10x software engineering.
 
+![Alphabet](avatar.png)
+
 ## Installation
 
 ```sh
