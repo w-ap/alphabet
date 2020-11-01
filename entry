@@ -28,7 +28,8 @@ ALPHABET_HOTKEY_EXPORT="export PATH=\"$ALPHABET_HOTKEY\":\$PATH"
 ALPHABET_HELP_EXPORT="export PATH=\"$ALPHABET_HELP\":\$PATH"
 ALPHABET_PLUMBING_EXPORT="export PATH=\"$ALPHABET_PLUMBING\":\$PATH"
 
-echo -e  "💡 Alphabet 1.0.0"
+echo -e  "📚 Alphabet 1.0.0"
+# 💡
 
 grep -qxF "${ALPHABET_CMD_EXPORT}" ${ALPHABET_BASH_PROFILE} || echo ${ALPHABET_CMD_EXPORT} >> ${ALPHABET_BASH_PROFILE}
 grep -qxF "${ALPHABET_HOTKEY_EXPORT}" ${ALPHABET_BASH_PROFILE} || echo ${ALPHABET_HOTKEY_EXPORT} >> ${ALPHABET_BASH_PROFILE}
@@ -39,7 +40,7 @@ grep -qxF "${ALPHABET_PLUMBING_EXPORT}" ${ALPHABET_BASH_PROFILE} || echo ${ALPHA
 
 chmod +x bin/*
 source $HOME/.bash_profile
-echo  -e "\tSuccessfully configured Alphabet ✓"
+echo  -e "\t✓ Successfully configured Alphabet"
 
 
 
