@@ -1,3 +1,4 @@
 #!/bin/bash
 
-git add . && git commit -m "Auto-pub latest tag" && git push && latest
+update && up
+
