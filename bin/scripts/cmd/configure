@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
+git config --global pull.rebase true
+git config --global fetch.prune true
+git config --global diff.colorMoved zebra
 git config --global push.default current
 git config --global push.followTags true
