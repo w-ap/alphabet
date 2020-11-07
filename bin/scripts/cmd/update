@@ -1,2 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+if [[ -f yarn.lock ]];
+then
+  yarn install;
+else
+  if [[ -f package.json ]];
+  then
+    npm update;
+  else
+    echo '💡 No package.json';
+  fi;
+fi;
 
