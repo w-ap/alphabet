@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [[ -f yarn.lock ]];
+then
+  yarn run start;
+else
+  if [[ -f package.json ]];
+  then
+    npm run start;
+  else
+    echo '💡 No package.json';
+  fi;
+fi;
+
