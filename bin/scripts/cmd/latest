@@ -3,7 +3,7 @@
 branch=$(git rev-parse --abbrev-ref HEAD)
 tag="latest"
 
-git tag -fa ${tag} && git push origin ${1}
+git tag -fa -m "Latest (auto-update)" ${tag} && git push origin ${1}
 echo "Branch: ${branch}"
 created=$(git describe --abbrev=0 --tags)
-echo "New tag: ${created}"
+echo "Latest tag: ${created}"
