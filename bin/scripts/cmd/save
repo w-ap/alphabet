@@ -1,3 +1,7 @@
 #!/bin/bash
 
-git add . && git commit -m "Auto-save"
+git add . && git commit -m "Auto-save" && git push
+
+
+
+#alias lt='ls --human-readable --size -1 -S --classify'

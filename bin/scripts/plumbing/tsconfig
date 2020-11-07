@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+export ALPHABET_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+filename="tsconfig.json"
+template="${ALPHABET_HOME}/files/${filename}"
+dest="$(pwd)/${filename}"
+#echo "Template: ${template}"
+#echo "Destination: ${dest}"
+
+cp ${template} ${dest}
+echo "Alphabet created ${filename}"
