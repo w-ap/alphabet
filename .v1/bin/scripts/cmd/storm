@@ -1,4 +1,0 @@
-#!/bin/sh
-
-pstorm $1
-#open -na "PhpStorm.app" --args "$@"

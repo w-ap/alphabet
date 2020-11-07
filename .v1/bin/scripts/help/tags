@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "Branch: $(git rev-parse --abbrev-ref HEAD)"
-echo "Latest tag: $(git describe --abbrev=0 --tags)"
