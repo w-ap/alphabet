@@ -6,7 +6,7 @@ then
 else
   if [[ -f package.json ]];
   then
-    yarn install;
+    npm install;
   else
     echo '💡 No package.json';
   fi;
