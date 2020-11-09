@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+[[ -f package.json ]] && npm run build
+[[ -f yarn.lock ]] && yarn build
