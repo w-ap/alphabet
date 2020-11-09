@@ -3,8 +3,8 @@
 branch=$(git rev-parse --abbrev-ref HEAD)
 latest=$(git describe --abbrev=0 --tags)
 
-git tag ${1} && git push origin ${1}
-echo "Branch: ${branch}"
-echo "Previous tag: ${latest}"
-created=$(git describe --abbrev=0 --tags)
-echo "New tag: ${created}"
+git tag ${1} && git push --tags
+#echo "Branch: ${branch}"
+#echo "Previous tag: ${latest}"
+#created=$(git describe --abbrev=0 --tags)
+#echo "New tag: ${created}"
