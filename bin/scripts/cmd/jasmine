@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ -f yarn.lock ]];
+then
+  yarn run test --if-present;
+else
+  if [[ -f package.json ]];
+  then
+    npm run test --if-present;
+  fi;
+fi;
+
