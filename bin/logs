@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Logs"
+
+git log

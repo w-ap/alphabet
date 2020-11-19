@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Tag"
+
+tag=$1
+
+if ! [[ ${tag} ]]
+then
+  echo -e "ⓘ  Please specify a tagname (e.g. 0.0.1)"
+  echo -e "⌘  git tag <tagname> && git push --tags -f"
+else
+  git tag ${tag} && git push --tags
+  echo -e "✔  Pushed tag "${tag}" to $(basename `git rev-parse --show-toplevel`).git"
+fi

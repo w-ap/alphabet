@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "📚 Tests ⤏ Unit"
+
+NOCOLOR='\033[0m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+
+if [[ -f package.json ]]
+then
+  cmd="npm run test --if-present"
+elif [[ -f yarn.lock ]]
+then
+  cmd="yarn run test --if-present"
+fi
+
+if [[ ${cmd} ]]
+then
+  . ${cmd}
+  echo -e "${GREEN}✔ Project tests executed."
+else
+  echo -e "${RED}✘ Failed to test project > \"test\" script command not found in package.json."
+fi

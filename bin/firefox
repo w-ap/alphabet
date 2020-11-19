@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+echo "📚 Browser ⤏ Firefox"
+
+NOCOLOR='\033[0m'
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+BLUE='\033[0;34m'
+
+if ! [[ $(open -a firefox) ]]
+then
+  echo "${RED}✘ Failed to open Firefox"
+else
+  echo "${GREEN}✔ Opened Firefox"
+fi

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Latest"
+
+echo "ⓘ Latest tag: $(git describe --abbrev=0 --tags)"

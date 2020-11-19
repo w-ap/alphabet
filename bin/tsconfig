@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+echo "📚 Typescript ⤏ Config"
+
+NOCOLOR='\033[0m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+
+file="tsconfig.json"
+template="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/files/${file}"
+echo $template
+file="$(pwd)/${file}"
+
+if [[ $(cp ${template} ${file}) ]]
+then
+  echo -e "${RED}✘ Failed to open Google Chrome${NOCOLOR}"
+else
+  cp ${template} ${file}
+  echo -e "${GREEN}✔ Created ${file}${NOCOLOR}"
+fi

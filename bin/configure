@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Configure"
+
+git config --global push.default current
+echo "✔ Configured push.default current"
+
+git config --global push.followTags true
+echo "✔ Configured push.followTags current"

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+echo "📚 Browser ⤏ Google Chrome"
+
+NOCOLOR='\033[0m'
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+BLUE='\033[0;34m'
+
+if [[ $(open -a 'Google Chrome') ]]
+then
+  echo -e "${RED}✘ Failed to open Google Chrome${NOCOLOR}"
+else
+  echo -e "${GREEN}✔ Opened Google Chrome${NOCOLOR}"
+fi

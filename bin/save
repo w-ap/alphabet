@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Save"
+
+if ! [[ $(git add . && git commit --amend --no-edit; git push -f) ]]
+then
+  echo "✘ Failed to save changes to $(basename `git rev-parse --show-toplevel`):$(git rev-parse --abbrev-ref HEAD)"
+else
+  echo "✔ Saved changes to $(basename `git rev-parse --show-toplevel`):$(git rev-parse --abbrev-ref HEAD)"
+fi

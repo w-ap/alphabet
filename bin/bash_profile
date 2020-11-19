@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "📚 Bash Profile ⤏ .zshrc"
+
+nano ~/.bash_profile

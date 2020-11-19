@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Add"
+
+NOCOLOR='\033[0m'
+BLUE='\033[0;34m'
+GREEN='\033[0;32m'
+
+file=$1
+
+if ! [[ ${file} ]]
+then
+  echo "${BLUE}ⓘ Please specify a file.${NOCOLOR}"
+else
+  git add ${file} && git commit --amend --no-edit > /dev/null 2>&1; git push -f
+  echo -e "${GREEN}✔ Added \"${file}\" to $(basename `git rev-parse --show-toplevel`):$(git rev-parse --abbrev-ref HEAD)${NOCOLOR}"
+fi

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "📚 User Profile ⤏ .zshrc (Oh-My-Zsh)"
+
+nano ~/.zshrc

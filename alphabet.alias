@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Add
+alias a='add'
+# Push
+alias p='push'
+alias gp='push'
+# Checkout
+alias co='checkout'
+# Diff
+alias d='diff'
+# Latest Tag
+alias lt='latest'
+# Logs
+alias lg='logs'
+# Save
+alias s='save'
+# Status
+alias gs='status'
+# Unit
+alias u='unit'

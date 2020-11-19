@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "📚 Documentation ⤏ README.rst"
+
+nano README.rst

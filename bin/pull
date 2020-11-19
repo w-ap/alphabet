@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "📚 Git ⤏ Pull"
+
+NOCOLOR='\033[0m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+
+if ! [[ $(git pull) ]]
+then
+  echo -e "${RED}✘ Failed to pull changes from remote $(basename `git rev-parse --show-toplevel`):$(git rev-parse --abbrev-ref HEAD)${NOCOLOR}"
+else
+  echo -e "${GREEN}✔ Pulled changes from remote $(basename `git rev-parse --show-toplevel`):$(git rev-parse --abbrev-ref HEAD)${NOCOLOR}"
+fi

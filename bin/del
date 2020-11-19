@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+echo "📚 Filesystem ⤏ Delete"
+
+NOCOLOR='\033[0m'
+BLUE='\033[0;34m'
+
+deletePath=$1
+
+if ! [[ ${deletePath} ]]
+then
+  echo -e "${BLUE}ⓘ  Please specify a file.${NOCOLOR}"
+else
+  rm -rf $(pwd)/${deletePath}
+  echo "✔ Deleted ${deletePath}"
+fi

@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Checkout"
+
+currentBranch=$(git rev-parse --abbrev-ref HEAD)
+branch=$1
+
+if ! [[ ${branch} ]]
+then
+  echo " Please specify a branch to checkout."
+  echo "⌘ git checkout <branch>"
+else
+  if ! [[ $(git checkout ${branch}) ]]
+  then
+    echo "✘ Failed to checkout branch: $(basename `git rev-parse --show-toplevel`):$(git rev-parse --abbrev-ref HEAD)"
+  else
+    echo "✔ Checked out \`${currentBranch}\` branch"
+  fi
+fi

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Initial"
+
+NOCOLOR='\033[0m'
+GREEN='\033[0;32m'
+
+message=$1
+
+if [[ ${message} ]]
+then
+  git add . && git commit -m "${message}" && git push
+  echo -e "${GREEN}✔ Initial commit.${NOCOLOR}"
+else
+  git add . && git commit -m "Initial commit" && git push
+  echo -e "${GREEN}✔ Initial commit.${NOCOLOR}"
+fi

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo "📚 Git ⤏ Commit"
+
+NOCOLOR='\033[0m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+
+message=$1
+
+if ! [[ ${message} ]]
+then
+  echo -e "${BLUE}ⓘ Please specify a commit message.${NOCOLOR}"
+else
+  git commit -m $1
+  echo "${GREEN}✔ Added commit message "${message}${NOCOLOR}""
+fi

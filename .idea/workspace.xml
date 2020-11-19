@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a304192-1ca0-4f00-9a36-62c131b9ebe3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2123879127">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="-g" value="1" />
+          <entry key="README" value="3" />
+          <entry key="README:rst" value="1" />
+          <entry key="add" value="8" />
+          <entry key="alias" value="3" />
+          <entry key="bash_profile" value="5" />
+          <entry key="build" value="11" />
+          <entry key="change-origin" value="1" />
+          <entry key="checkout" value="7" />
+          <entry key="chrome" value="2" />
+          <entry key="clean" value="1" />
+          <entry key="co" value="2" />
+          <entry key="commit" value="10" />
+          <entry key="configure" value="10" />
+          <entry key="del" value="6" />
+          <entry key="diff" value="11" />
+          <entry key="f" value="1" />
+          <entry key="finder" value="1" />
+          <entry key="firefox" value="1" />
+          <entry key="force" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="go" value="1" />
+          <entry key="google" value="2" />
+          <entry key="i" value="1" />
+          <entry key="initial" value="3" />
+          <entry key="install" value="1" />
+          <entry key="jasmine" value="2" />
+          <entry key="json" value="4" />
+          <entry key="latest" value="6" />
+          <entry key="logs" value="6" />
+          <entry key="md" value="4" />
+          <entry key="open" value="1" />
+          <entry key="pr" value="1" />
+          <entry key="profile" value="9" />
+          <entry key="pull" value="6" />
+          <entry key="push" value="8" />
+          <entry key="readme" value="4" />
+          <entry key="readme:rst" value="2" />
+          <entry key="recreate" value="2" />
+          <entry key="refresh" value="3" />
+          <entry key="release" value="1" />
+          <entry key="rst" value="1" />
+          <entry key="run" value="1" />
+          <entry key="safari" value="1" />
+          <entry key="save" value="10" />
+          <entry key="scaffold" value="2" />
+          <entry key="search" value="1" />
+          <entry key="send" value="1" />
+          <entry key="set" value="1" />
+          <entry key="sh" value="12" />
+          <entry key="spec" value="1" />
+          <entry key="start" value="1" />
+          <entry key="status" value="7" />
+          <entry key="sync" value="1" />
+          <entry key="tag" value="6" />
+          <entry key="tests" value="1" />
+          <entry key="tsconfig" value="2" />
+          <entry key="unit" value="5" />
+          <entry key="update" value="1" />
+          <entry key="zshrc" value="3" />
+          <entry key="zshrc2" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="192" />
+          <entry key="Git file" value="2" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="ReST" value="1" />
+          <entry key="tsconfig" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="add" value="126" />
+          <entry key="alias" value="298" />
+          <entry key="bash_profile" value="16" />
+          <entry key="build" value="333" />
+          <entry key="checkout" value="27" />
+          <entry key="chrome" value="8" />
+          <entry key="co" value="107" />
+          <entry key="commit" value="78" />
+          <entry key="configure" value="49" />
+          <entry key="del" value="140" />
+          <entry key="diff" value="10" />
+          <entry key="finder" value="70" />
+          <entry key="firefox" value="32" />
+          <entry key="gitignore" value="2" />
+          <entry key="google" value="72" />
+          <entry key="initial" value="131" />
+          <entry key="json" value="5" />
+          <entry key="latest" value="31" />
+          <entry key="logs" value="19" />
+          <entry key="md" value="96" />
+          <entry key="open" value="14" />
+          <entry key="profile" value="152" />
+          <entry key="pull" value="52" />
+          <entry key="push" value="17" />
+          <entry key="readme" value="18" />
+          <entry key="refresh" value="50" />
+          <entry key="rst" value="7" />
+          <entry key="safari" value="45" />
+          <entry key="save" value="70" />
+          <entry key="search" value="27" />
+          <entry key="sh" value="280" />
+          <entry key="status" value="17" />
+          <entry key="tag" value="8" />
+          <entry key="tests" value="13" />
+          <entry key="tsconfig" value="126" />
+          <entry key="unit" value="165" />
+          <entry key="zshrc" value="76" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="2596" />
+          <entry key="Git file" value="2" />
+          <entry key="Markdown" value="96" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="ReST" value="7" />
+          <entry key="tsconfig" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/tsconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/files/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="191">
+                <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app_</find>
+      <find>-e</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>alphabet_</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bin/lib/npm_run.sh" />
+        <option value="$PROJECT_DIR$/bin/co" />
+        <option value="$PROJECT_DIR$/bin/lib/error.sh" />
+        <option value="$PROJECT_DIR$/bin/lib/logger.sh" />
+        <option value="$PROJECT_DIR$/profile" />
+        <option value="$PROJECT_DIR$/bin/diff" />
+        <option value="$PROJECT_DIR$/bin/README.md" />
+        <option value="$PROJECT_DIR$/bin/readme" />
+        <option value="$PROJECT_DIR$/bin/readme.rst" />
+        <option value="$PROJECT_DIR$/bin/logs" />
+        <option value="$PROJECT_DIR$/bin/refresh" />
+        <option value="$PROJECT_DIR$/bin/profile" />
+        <option value="$PROJECT_DIR$/bin/zshrc" />
+        <option value="$PROJECT_DIR$/bin/tag" />
+        <option value="$PROJECT_DIR$/bin/unit" />
+        <option value="$PROJECT_DIR$/bin/bash_profile" />
+        <option value="$PROJECT_DIR$/bin/push" />
+        <option value="$PROJECT_DIR$/alias/git.alias" />
+        <option value="$PROJECT_DIR$/alphabet.alias" />
+        <option value="$PROJECT_DIR$/bin/checkout" />
+        <option value="$PROJECT_DIR$/bin/configure" />
+        <option value="$PROJECT_DIR$/bin/latest" />
+        <option value="$PROJECT_DIR$/bin/save" />
+        <option value="$PROJECT_DIR$/bin/del" />
+        <option value="$PROJECT_DIR$/bin/add" />
+        <option value="$PROJECT_DIR$/bin/initial" />
+        <option value="$PROJECT_DIR$/bin/pull" />
+        <option value="$PROJECT_DIR$/bin/build" />
+        <option value="$PROJECT_DIR$/bin/google" />
+        <option value="$PROJECT_DIR$/bin/google2" />
+        <option value="$PROJECT_DIR$/bin/search" />
+        <option value="$PROJECT_DIR$/bin/tests" />
+        <option value="$PROJECT_DIR$/bin/open" />
+        <option value="$PROJECT_DIR$/bin/status" />
+        <option value="$PROJECT_DIR$/bin/finder" />
+        <option value="$PROJECT_DIR$/bin/firefox" />
+        <option value="$PROJECT_DIR$/bin/safari" />
+        <option value="$PROJECT_DIR$/alphabet.profile" />
+        <option value="$PROJECT_DIR$/files/tsconfig.json" />
+        <option value="$PROJECT_DIR$/bin/chrome" />
+        <option value="$PROJECT_DIR$/bin/commit" />
+        <option value="$PROJECT_DIR$/bin/tsconfig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bin/files/tsconfig.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="alphabet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphabet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alphabet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphabet" type="462c0819:PsiDirectoryNode" />
+              <item name=".doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alphabet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphabet" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alphabet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphabet" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/.scratch/scripts/plumbing" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/bin/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e7fc714-fbd9-4a79-96f7-c98b0b1a242a" name="Default Changelist" comment="" />
+      <created>1602817502447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602817502447</updated>
+      <workItem from="1602817503705" duration="236000" />
+      <workItem from="1603484532145" duration="616000" />
+      <workItem from="1603489738284" duration="2531000" />
+      <workItem from="1603492605260" duration="85000" />
+      <workItem from="1603492765709" duration="1396000" />
+      <workItem from="1603919217964" duration="311000" />
+      <workItem from="1603919688738" duration="2122000" />
+      <workItem from="1603989540715" duration="4582000" />
+      <workItem from="1604097525564" duration="3328000" />
+      <workItem from="1604102417342" duration="2442000" />
+      <workItem from="1604105034011" duration="632000" />
+      <workItem from="1604116449653" duration="5553000" />
+      <workItem from="1604176391687" duration="26294000" />
+      <workItem from="1604217125945" duration="8682000" />
+      <workItem from="1604226123868" duration="335000" />
+      <workItem from="1604226499063" duration="1799000" />
+      <workItem from="1604309433709" duration="128000" />
+      <workItem from="1604344640205" duration="101000" />
+      <workItem from="1604430458485" duration="6925000" />
+      <workItem from="1604445248505" duration="1734000" />
+      <workItem from="1604713866110" duration="112000" />
+      <workItem from="1604715438266" duration="698000" />
+      <workItem from="1604716603263" duration="786000" />
+      <workItem from="1604717452489" duration="1145000" />
+      <workItem from="1604719100445" duration="4728000" />
+      <workItem from="1604737615014" duration="45000" />
+      <workItem from="1604750800085" duration="283000" />
+      <workItem from="1604754113788" duration="21000" />
+      <workItem from="1604754155894" duration="108000" />
+      <workItem from="1604758117959" duration="817000" />
+      <workItem from="1604760237157" duration="641000" />
+      <workItem from="1604764808288" duration="782000" />
+      <workItem from="1604888525006" duration="2345000" />
+      <workItem from="1604939637181" duration="601000" />
+      <workItem from="1604962091442" duration="385000" />
+      <workItem from="1605291824519" duration="6073000" />
+      <workItem from="1605298734445" duration="340000" />
+      <workItem from="1605299279498" duration="1356000" />
+      <workItem from="1605746680435" duration="18593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11883000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32403433" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32677165" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.47506562" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32403433" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32677165" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.47506562" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.profile" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/lib/logger.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/cmd/spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/zshrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/logs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/plumbing/yarn.alias">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/profile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/latest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/push">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/README:rst">
+      <provider editor-type-id="restructured-text-editor" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/save">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/lib/terminal/terminal.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/lib/logger/logger.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/lib/logger/logger.spec.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/lib/terminal/colors.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bash_profile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pull">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="142" lean-forward="true" selection-start-line="10" selection-start-column="132" selection-end-line="10" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/hotkey/send">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/hotkey/release">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/hotkey/f">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/hotkey/.i">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/hotkey/-g">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/cmd/clean">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/tests">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/configure">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/build">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/status">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/initial">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/add">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/finder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/firefox">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/safari">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/cmd/jasmine">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/plumbing/scaffold">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alphabet.alias">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alphabet.profile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/plumbing/search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/diff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/plumbing/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/README">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="32">
+            <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scratch/scripts/cmd/recreate">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/del">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/checkout">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/commit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/chrome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/tsconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/files/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="191">
+            <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
